@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Completion</title>
+    <script type="text/javascript" src="index.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        h1 {
+            text-align: center;
+            font-family: Montserrat, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Completion</h1>
+        <form id="completion">
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="idnumber">ID Number</label>
+                    <input id="idnumber" name="idnumber" type="text" class="form-control"/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="lastname">Last Name</label>
+                    <input id="lastname" name="lastname" type="text" class="form-control"/>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="firstname">First Name</label>
+                    <input id="firstname" name="firstname" type="text" class="form-control"/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="middlename">Middle Name</label>
+                    <input id="middlename" name="middlename" type="text" class="form-control"/>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="contactnumber">Contact Number</label>
+                    <input id="contactnumber" name="contactnumber" type="text" class="form-control"/>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" class="form-control"/>
+                </div>
+            </div>
+            <div class="text-center">
+            <button type="button" id="save" class="btn btn-primary">Save</button>
+        </div>
+        </form>
+
+        <style>
+            h2 {
+            text-align: left;
+            font-family: Montserrat, sans-serif;
+            }
+        </style>
+        <h2 class="mt-5">Student Table</h2>
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">idNumber</th>
+                    <th scope="col">lastName</th>
+                    <th scope="col">firstName</th>
+                    <th scope="col">middleName</th>
+                    <th scope="col">Contact No.</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody id="studentTableBody">
+                <!-- Add new rows here -->
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
