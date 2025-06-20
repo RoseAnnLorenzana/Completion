@@ -1,1 +1,2 @@
 # Completion
+A web-based application designed to help manage and organize student records efficiently. It allows students to input, update, and view their personal details such as ID number, name, contact information, and email. The system also enables administrators or users to save new entries, edit existing data, or delete student records in a user-friendly interface, ensuring accurate and up-to-date information.
